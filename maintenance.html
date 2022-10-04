@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+
+<title>Site Maintenance</title>
+
+<style>
+  body { text-align: center; padding: 20px; }
+  @media (min-width: 768px){
+    body{ padding-top: 150px; }
+  }
+  h1 { font-size: 50px; }
+  body { font: 20px Helvetica, sans-serif; color: #333; }
+  article { display: block; text-align: left; max-width: 650px; margin: 0 auto; }
+  a { color: #dc8100; text-decoration: none; }
+  a:hover { color: #333; text-decoration: none; }
+  
+ button{
+    text-align: center;
+    padding: 12px 16px;
+    background: #3886ef;
+    color: white;
+    border: 0;
+	font-size: 20px;
+	cursor: pointer;
+ }
+</style>
+
+<body>
+	<article>
+		<h1>We&rsquo;ll be back soon!</h1>
+		<div>
+			<p>Sorry for the inconvenience but we&rsquo;re performing some regular maintenance at the moment. If you need to you can always <a href="mailto:info@opsym.com">contact us</a>. </p> 
+			<p>Service is expected to resume at 10.00pm (Indian Standard Time) on Sunday Auguest 30th 2020.</p>
+			<p>&mdash; OPSYM TECHNOLOGY Team</p>
+		</div>
+	</article>
+	<div style="text-align:center;">
+		<button onclick="refreshClick()">Refresh...</button>
+	</div>	
+</body>
+
+<script>
+function refreshClick(){
+window.location.href="https://www.opsym.com/";
+}
+
+</script>
+
+</html>
